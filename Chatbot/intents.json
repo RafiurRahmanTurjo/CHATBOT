@@ -1,0 +1,104 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello", "hey", "hi", "good morning", "good afternoon", "what's up"],
+      "responses": ["Hey!", "Hello there!", "Hi! How can I help?", "Good to see you!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "take care", "have to go"],
+      "responses": ["Goodbye!", "Take care!", "See you later!", "Have a great day!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "appreciate it", "thanks a lot"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!", "My pleasure!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what's your name", "who are you", "what should I call you"],
+      "responses": ["I'm ChatBot!", "You can call me ChatBot", "ChatBot at your service!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help", "can you help me", "need assistance", "support"],
+      "responses": ["Sure, what do you need help with?", "I'm here to help!", "How can I assist you?"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["what's the weather", "is it going to rain", "temperature today"],
+      "responses": ["I can't check real-time weather", "You might want to check a weather app for that", "I don't have access to weather data"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["what time is it", "current time", "tell me the time"],
+      "responses": ["I can't check the current time", "You'll need to check your device for the current time"]
+    },
+    {
+      "tag": "jokes",
+      "patterns": ["tell me a joke", "say something funny", "make me laugh"],
+      "responses": ["Why don't programmers like nature? It has too many bugs!", "Why did the computer go to the doctor? It had a virus!"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old are you", "what's your age", "when were you created"],
+      "responses": ["I'm a computer program, so I don't have an age", "I was created recently", "Age is just a number for AI!"]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": ["what can you do", "your capabilities", "help options"],
+      "responses": ["I can chat, answer questions, and help with various tasks!", "I'm designed to assist with conversations and basic queries"]
+    },
+    {
+      "tag": "music",
+      "patterns": ["favorite music", "what songs", "type of music"],
+      "responses": ["I don't actually listen to music", "I can't hear music, but I can discuss it!"]
+    },
+    {
+      "tag": "movies",
+      "patterns": ["favorite movie", "recommend a film", "good movies"],
+      "responses": ["I don't watch movies", "I can't watch movies, but I can discuss them!"]
+    },
+    {
+      "tag": "food",
+      "patterns": ["favorite food", "what should I eat", "food recommendation"],
+      "responses": ["I don't eat food", "I can't taste food, but I can discuss recipes!"]
+    },
+    {
+      "tag": "hobbies",
+      "patterns": ["what are your hobbies", "what do you do for fun"],
+      "responses": ["I enjoy chatting with people like you!", "My hobby is helping people with their questions!"]
+    },
+    {
+      "tag": "location",
+      "patterns": ["where are you", "where do you live", "your location"],
+      "responses": ["I exist in the digital world!", "I'm a computer program, so I don't have a physical location"]
+    },
+    {
+      "tag": "feelings",
+      "patterns": ["how are you", "how do you feel", "are you okay"],
+      "responses": ["I'm functioning well!", "All systems operational!", "Ready to help!"]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["who made you", "who created you", "your developer"],
+      "responses": ["I was created by a developer", "I'm an AI chatbot created to help people"]
+    },
+    {
+      "tag": "purpose",
+      "patterns": ["what is your purpose", "why were you created", "what are you for"],
+      "responses": ["I'm here to help and chat with users!", "My purpose is to assist people with their questions"]
+    },
+    {
+      "tag": "language",
+      "patterns": ["what languages do you speak", "do you know other languages"],
+      "responses": ["I primarily communicate in English", "I'm programmed to respond in English"]
+    },
+    {
+      "tag": "default",
+      "patterns": [""],
+      "responses": ["I'm not sure I understand. Could you rephrase that?", "I didn't quite catch that. Can you explain differently?"]
+    }
+  ]
+}
